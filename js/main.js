@@ -1,5 +1,4 @@
-'use strict';
-import getMusicData from './musicUI.js'
+"use strict";
+import getMusicData from "./musicUI.js";
 
-
-getMusicData()
+getMusicData();
