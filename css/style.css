@@ -1,0 +1,14 @@
+main {
+  min-height: 80vh;
+}
+
+header, footer {
+  text-align: center;
+}
+
+#music-catalogue {
+  width: 80vw;
+  height: 60vh;
+  border: solid black 1px;
+  margin: 0 auto;
+}
