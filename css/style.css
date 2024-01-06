@@ -2,13 +2,30 @@ main {
   min-height: 80vh;
 }
 
-header, footer {
+header,
+footer {
   text-align: center;
 }
 
 #music-catalogue {
   width: 80vw;
-  height: 60vh;
+  min-height: 60vh;
   border: solid black 1px;
   margin: 0 auto;
+  padding: 2em;
+}
+
+.pill {
+  padding: .2em 2em;
+  border-radius: 50px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.artist {
+  background-color: rgb(138, 200, 200);
+}
+
+.track {
+  background-color: rgb(231, 130, 130);
 }
