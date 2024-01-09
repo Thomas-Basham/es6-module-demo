@@ -1,4 +1,4 @@
 "use strict";
-import getMusicData from "./musicUI.js";
+import getMusicData from "./apiHandler.js";
 
 getMusicData();
