@@ -1,6 +1,8 @@
 "use strict";
 
 function renderMusic(data) {
+  // reset our catalogue html
+  $("#music-catalogue").html('') 
   // need to parse data for the itunes api.
   data = JSON.parse(data);
   console.log(data);
