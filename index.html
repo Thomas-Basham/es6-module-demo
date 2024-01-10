@@ -11,9 +11,14 @@
       <h1>Musics</h1>
     </header>
     <main>
-      <section id="music-catalogue">
-
-      </section>
+      <form id="music-form">
+        <fieldset>
+          <label for="song-query">Enter A Keyword: </label>
+          <input id="song-query" name="song-query" type="text" />
+          <button type="submit">Show results</button>
+        </fieldset>
+      </form>
+      <section id="music-catalogue"></section>
     </main>
     <footer>&copy; Codex July Cohort</footer>
     <script
@@ -23,6 +28,7 @@
     ></script>
     <script type="module" src="js/main.js"></script>
     <script type="module" src="js/musicUI.js"></script>
-
+    <script type="module" src="js/apiHandler.js"></script>
+    <script type="module" src="js/eventHandler.js"></script>
   </body>
 </html>
