@@ -1,8 +1,8 @@
 "use strict";
 import renderMusic from "./musicUI.js";
 
-function getMusicData() {
-  $.get("https://itunes.apple.com/search?term=beyonce", renderMusic);
+function getMusicData(term) {
+  $.get(`https://itunes.apple.com/search?term=${term}`, renderMusic);
 }
 
 export default getMusicData;
