@@ -1,4 +1,3 @@
-"use strict";
 import renderMusic from "./musicUI.js";
 
 function getMusicData(term) {
