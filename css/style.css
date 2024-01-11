@@ -13,6 +13,19 @@ footer {
   border: solid black 1px;
   margin: 0 auto;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.song-stuff {
+  display: inline-block;
+
+}
+#music-catalogue > div {
+  margin-bottom: 2em;
+}
+
+audio {
+  display: block;
 }
 
 .pill {
@@ -23,9 +36,7 @@ footer {
 }
 
 .artist {
-  background-color: rgb(138, 200, 200);
 }
 
 .track {
-  background-color: rgb(231, 130, 130);
 }
